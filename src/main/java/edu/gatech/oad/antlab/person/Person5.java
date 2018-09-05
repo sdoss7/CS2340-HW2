@@ -31,9 +31,9 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  string firstTwo = input(0,1);
-	  string rest = input(2,input.length());
-	  string newString = rest+firstTwo;
+	  string firstTwo = input.substring(0,1);
+	  string rest = input.substring(2,input.length());
+	  string newString = rest + firstTwo;
 	  return newString;
 	}
 	
