@@ -30,9 +30,9 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  if (input.length() < 2) {
+		if (input.length() < 2) {
 			return input;
-		} else {
+	  	} else {
 			int ran;
 			String holder = input;
 			String out = "";
@@ -46,6 +46,7 @@ public class Person2 {
 				}
 			}
 			return out;
+	  	}
 	}
 	/**
 	 * Return a string rep of this object
